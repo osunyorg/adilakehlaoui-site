@@ -1,8 +1,7 @@
 html
     scroll-behavior: smooth
-   
 
-
+// Footer 
 footer#document-footer
     padding-top: 0
     .container
@@ -13,6 +12,19 @@ footer#document-footer
         padding-top: 0
 
 
+// Header
+header 
+    .primary-menu
+        .container
+            .menu
+                a
+                    text-transform: uppercase;
+                    font-size: 14px
+
+header#document-header .primary-menu
+    padding: 0.5rem
+
+//Hero                  
 .hero 
     padding-bottom: 0
         
@@ -27,34 +39,21 @@ header
                 a, .search-button--primary, .search-button--upper-menu
                     color: rgb(23, 7, 43)
 
-            
-a::selection
-    color: rgb(23, 7, 43)
 
-
-header#document-header .primary-menu
-    padding: 0.5rem
-
-
-header 
-    .primary-menu
-        .container
-            .menu
-                a
-                    text-transform: uppercase;
-                    font-size: 14px
-
-.heading container block block-title block-titled block-title--classic
-    color: #eacb21ff
-
-
+// Main
 main
     header
         .container
             .content
                 .hero.text
                     margin: 0
-                    
+
+
 main, nav, footer
     width: 80%
     margin: auto
+
+
+            
+a::selection
+    color: rgb(23, 7, 43)
