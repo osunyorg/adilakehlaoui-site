@@ -1,11 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: À propos
-  target: "/#a-propos"
-  kind: url
-  new_tab: false
-  children: []
 - title: Formation
   target: "/#formation"
   kind: url
