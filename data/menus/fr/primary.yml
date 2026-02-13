@@ -2,28 +2,38 @@
 title: Menu principal
 items:
 - title: Formation
+  slug: formation
   target: "/#formation"
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 - title: Expériences professionnelles
+  slug: experiences-professionnelles
   target: "/#experiences-professionnelles"
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 - title: Technologies
+  slug: technologies
   target: "/#technologies"
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 - title: Centres d'intérêt
+  slug: centres-d-interet
   target: "/#centres-d-interet"
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 - title: Contact
+  slug: contact
   target: "/#contact"
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 
